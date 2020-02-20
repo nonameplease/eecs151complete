@@ -1,0 +1,72 @@
+$date
+	Fri Oct  4 16:29:46 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module load_decoder_testbench $end
+$var reg 32 ! addr [31:0] $end
+$var reg 1 " lb $end
+$var reg 1 # lbu $end
+$var reg 1 $ lh $end
+$var reg 1 % lhu $end
+$var reg 1 & lw $end
+$var reg 32 ' raw_data [31:0] $end
+$scope module dut $end
+$var wire 32 ( addr [31:0] $end
+$var wire 1 " lb $end
+$var wire 1 # lbu $end
+$var wire 1 $ lh $end
+$var wire 1 % lhu $end
+$var wire 1 & lw $end
+$var wire 32 ) raw_data [31:0] $end
+$var wire 32 * wb_data [31:0] $end
+$var reg 32 + data [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 +
+b0 *
+b10000000000000001000000010000000 )
+bx (
+b10000000000000001000000010000000 '
+0&
+0%
+0$
+0#
+0"
+bx !
+$end
+#100
+b11111111111111111111111110000000 *
+b11111111111111111111111110000000 +
+1"
+#200
+b10000000 *
+b10000000 +
+1#
+0"
+#300
+b11111111111111111000000010000000 *
+b11111111111111111000000010000000 +
+1$
+0#
+#400
+b1000000010000000 *
+b1000000010000000 +
+1%
+0$
+#500
+b10000000000000001000000010000000 *
+b10000000000000001000000010000000 +
+1&
+0%
+#600
+b0 *
+b0 +
+0&

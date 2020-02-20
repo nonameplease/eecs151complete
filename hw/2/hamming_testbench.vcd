@@ -1,0 +1,71 @@
+$date
+	Fri Sep 20 15:55:26 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module hamming_testbench $end
+$var wire 2 ! error [1:0] $end
+$var reg 22 " data [21:0] $end
+$var reg 1 # fi $end
+$scope module tu $end
+$var wire 22 $ data [21:0] $end
+$var wire 2 % error_code [1:0] $end
+$var wire 5 & syndrome [4:0] $end
+$var wire 5 ' parity [4:0] $end
+$var wire 5 ( old_parity [4:0] $end
+$var reg 2 ) ecode [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11 )
+b11111 (
+b11110 '
+b1 &
+b11 %
+b1111111111111111111111 $
+0#
+b1111111111111111111111 "
+b11 !
+$end
+#1
+b10 !
+b10 %
+b10 )
+b100 '
+b10 &
+b110 (
+b100010000001100001110 "
+b100010000001100001110 $
+#2
+b0 !
+b0 %
+b0 )
+b0 &
+b100 (
+b100010000001100001100 "
+b100010000001100001100 $
+#3
+b0 !
+b0 %
+b0 )
+b11101 '
+b0 &
+b11101 (
+b110011001100110011001 "
+b110011001100110011001 $
+#4
+b1 !
+b1 %
+b1 )
+b100 '
+b0 &
+b100 (
+b1100010000001100001100 "
+b1100010000001100001100 $
+#5
